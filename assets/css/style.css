@@ -1,0 +1,60 @@
+/* Hero Banner Overlay */
+.hero-banner::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 70vh;
+    background: rgba(0,0,0,0.5);
+}
+
+/* Service Cards Hover */
+.service-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Project & Furniture Cards Hover */
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+/* Buttons */
+.btn-primary{
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary:hover{
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Hero Banner */
+.hero-banner h1, .hero-banner p, .hero-banner a{
+    position: relative;
+    z-index: 2;
+}
+
+/* Card Hover Effects */
+.hover-card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Service Cards Hover */
+.service-card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* CTA Banner */
+.cta-banner h2, .cta-banner p, .cta-banner a {
+    position: relative;
+    z-index: 2;
+}
+
+/* Testimonials */
+.card p {
+    font-style: italic;
+}
